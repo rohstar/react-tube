@@ -1,7 +1,8 @@
 //add restriction URL 
 import axios from 'axios'
+import youtubeKey from '../env'
 
-const KEY = 'AIzaSyBsbLtqcMTprMRIR4u66Q-DUCTVqgJX-8k'
+const KEY = youtubeKey
 
 export default axios.create({
   baseURL: 'https://www.googleapis.com/youtube/v3',
